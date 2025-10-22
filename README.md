@@ -2,6 +2,7 @@
 no tutorials yet but i will try to document as much as possible. **the guide is not yet recommended.**
 
 ## workflow
+assuming you have downloaded this repository :D
 - go to a desired manga on [mangakatana.com](https://mangakatana.com/manga)
 - select chapters to download as a zip (you can only download 10 chapters at once)
 - extract each zip and combine their contents into one folder. (each subfolders inside (e.g c001) will be moved to 1 location)
