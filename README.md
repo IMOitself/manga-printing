@@ -1,6 +1,8 @@
 # manga-printing
 no tutorials yet but i will try to document as much as possible. **the guide is not yet recommended.**
 
+**[guide below is outdated and is before THE GREAT RESET]**
+
 ## workflow
 assuming you have downloaded this repository :D
 - go to a desired manga on [mangakatana.com](https://mangakatana.com/manga)
