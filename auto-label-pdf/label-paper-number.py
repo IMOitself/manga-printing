@@ -27,7 +27,7 @@ def label_pages():
         sys.exit()
 
     input_pdf_path = pdf_files[0]
-    output_pdf_path = f"labeled_{input_pdf_path}"
+    output_pdf_path = f"{input_pdf_path} - labeled"
     print(f"📄 Processing '{input_pdf_path}'...")
 
     try:
