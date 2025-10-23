@@ -41,6 +41,17 @@ def label_pages():
             width, height = page.mediabox.upper_right
             can = canvas.Canvas(packet, pagesize=(width, height))
 
+            # --- DRAW CENTER LINE ---
+            text_width = can.stringWidth(text, FONT_NAME, FONT_SIZE)
+            line_x = float(width) / 2
+            y_center = float(height) / 2
+            gap_size = (text_width / 2) + 10
+
+            can.setStrokeColor(BLACK)
+            can.setLineWidth(0.5)
+            can.line(line_x, 0, line_x, y_center - gap_size)
+            can.line(line_x, y_center + gap_size, line_x, float(height))
+
             can.saveState()
 
             # 1. Calculate the center position for the text
