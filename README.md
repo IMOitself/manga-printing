@@ -1,5 +1,5 @@
 # manga-printing
-no tutorials yet but i will try to document as much as possible. **the guide is not yet recommended.**
+no tutorials yet but i will try to document as much as possible. **the guide is still work in progress.**
 
 ## guide `WIP`
 `[TODO: using hakuneko and mangapill.com to get manga pages]`
